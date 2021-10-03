@@ -9,7 +9,7 @@ import { Button } from 'react-bootstrap';
 export const ContactForm = () => {
     return (
         <div>
-            <Form>
+            <Form gap={5}>
                 <Row className="mb-3">
                     <Form.Group as={Col} controlId="formGridEmail">
                     <Form.Label>Email</Form.Label>
