@@ -1,14 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import {NavBar} from './componentes/NavBar/NavBar'
-import {ContactForm} from './componentes/ContactForm/ContactForm'
+import { Layout } from './componentes/Layout/Layout';
 
 function App() {
   return (
     <div>
-      <NavBar/>
-      <br/>
-      <ContactForm/>
+      <Layout>
+      </Layout>
     </div>
   );
 }
